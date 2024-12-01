@@ -25,7 +25,7 @@ const nextConfig: NextConfig = {
         headers: [
           {
             key: "Cache-Control",
-            value: "public, max-age=31536000, immutable", // This instructs the browser to cache those files for one year. So, if your Next.js site relies on some static resources, you should download and place them inside /public.
+            value: "public, max-age=31536000, must-revalidate", // This instructs the browser to cache those files for one year. So, if your Next.js site relies on some static resources, you should download and place them inside /public.
           },
         ],
       },

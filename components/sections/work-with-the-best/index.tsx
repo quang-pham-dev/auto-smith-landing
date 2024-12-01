@@ -42,7 +42,7 @@ export default function WorkWithTheBest() {
   return (
     <section
       id="work-with-the-best"
-      className="container flex flex-col md:mt-[70px]"
+      className="container flex flex-col mt-5 md:mt-[70px]"
     >
       <div className="w-full max-w-[100vw]">
         <p className="text-center text-lg md:text-2xl font-normal">

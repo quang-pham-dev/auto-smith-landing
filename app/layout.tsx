@@ -24,7 +24,7 @@ export default function RootLayout({
         suppressHydrationWarning
         className={`font-satoshi antialiased flex flex-col overflow-x-hidden`}
       >
-        <main className="flex-1">{children}</main>
+        <main>{children}</main>
       </body>
     </html>
   );
