@@ -9,7 +9,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { navigation } from "@/constants/navigation";
+import { navbarLinks } from "@/constants/navbar-links";
 import Link from "next/link";
 import { scrollToSection } from "@/lib/utils";
 
@@ -37,7 +37,7 @@ export default function MobileNav() {
         </SheetHeader>
         <nav className="mt-8">
           <ul className="flex flex-col gap-4">
-            {navigation.map((item) => (
+            {navbarLinks.map((item) => (
               <li key={item.id}>
                 <Link
                   href={item.href}
