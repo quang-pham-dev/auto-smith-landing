@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { navigation } from "@/constants/navigation";
+import { navbarLinks } from "@/constants/navbar-links";
 import { scrollToSection } from "@/lib/utils";
 
 export default function NavBar() {
@@ -15,7 +15,7 @@ export default function NavBar() {
   return (
     <nav className="hidden md:block">
       <ul className="flex items-center gap-4">
-        {navigation.map((item) => (
+        {navbarLinks.map((item) => (
           <li key={item.id}>
             <Link
               className="text-sm font-medium cursor-pointer"

@@ -1,0 +1,7 @@
+# Allow crawling of the homepage for all crawlers
+User-agent: *
+Allow: /
+
+sitemap: https://auto-smith-landing.vercel.app/sitemap-file.xml
+
+

@@ -3,7 +3,7 @@ import "./globals.css";
 import { satoshi } from "@/app/typography";
 
 export const metadata: Metadata = {
-  title: "🚗 Autosmith - Marketing Website Design",
+  title: "Autosmith - Marketing Website Design",
   description: "Find the perfect car for you",
 };
 

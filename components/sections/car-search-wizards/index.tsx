@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { start, bgTopBanner } from "@/assets";
+import { star, bgTopBanner } from "@/assets";
 import { TopBadge } from "./top-badge";
 import CTAFeature from "./cta-feature";
 import SearchInput from "./search-input";
@@ -45,7 +45,14 @@ export default function CarSearchWizard() {
 
         <p className="mt-2 md:mt-3 text-sm md:text-base font-medium flex justify-center items-center gap-1">
           Join 15000+ 4.8{" "}
-          <Image src={start} alt="star" width={16} height={16} />
+          <Image
+            src={star}
+            alt="star"
+            width={16}
+            height={16}
+            priority
+            className="w-4 h-4"
+          />
         </p>
       </div>
     </section>

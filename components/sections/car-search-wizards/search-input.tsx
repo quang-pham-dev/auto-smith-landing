@@ -1,16 +1,16 @@
 import Image from "next/image";
 
-import { searchInput } from "@/assets";
+import { magnifyingGlass } from "@/assets";
 
-import { Button } from "../../ui/button";
-import { Input } from "../../ui/input";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
 export default function SearchInput() {
   return (
     <div className="relative w-full max-w-[490px] px-4 sm:px-0">
       <div className="relative flex items-center">
         <Image
-          src={searchInput}
+          src={magnifyingGlass}
           alt="Search"
           width={20}
           height={20}

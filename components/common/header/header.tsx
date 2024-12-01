@@ -21,9 +21,10 @@ export default function Header() {
           <Image
             src={logo}
             alt="logo"
-            width={118}
-            height={18}
-            className="w-auto"
+            width={188}
+            height={24}
+            priority
+            className="w-[188px] h-[24px]"
           />
           <NavBar />
           <MobileNav />
