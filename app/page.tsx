@@ -7,6 +7,7 @@ import Pricing from "@/components/sections/pricing";
 import OurCustomers from "@/components/sections/our-customers";
 import FAQ from "@/components/sections/faq";
 import Footer from "@/components/common/footer";
+import { ScrollToTopButton } from "@/components/ui/scroll-to-top";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Pricing />
       <OurCustomers />
       <FAQ />
+      <ScrollToTopButton />
       <Footer />
     </>
   );

@@ -7,11 +7,11 @@ import Logo from "@/components/icons/logo";
 import { Heading } from "../heading";
 
 const quickLinks = [
-  { href: "/what-we-offer", label: "What we offer" },
-  { href: "/why-trust-us", label: "Why trust us" },
-  { href: "/how-it-works", label: "How it works" },
-  { href: "/pricing", label: "Pricing" },
-  { href: "/our-customers", label: "Our customers" },
+  { href: "#", label: "What we offer" },
+  { href: "#", label: "Why trust us" },
+  { href: "#", label: "How it works" },
+  { href: "#", label: "Pricing" },
+  { href: "#", label: "Our customers" },
 ];
 
 const legalLinks = [
@@ -30,9 +30,7 @@ export default function Footer() {
     <footer className="container mt-[50px] md:mt-[140px] items-start pb-[40px] md:pb-[65px]">
       <div className="flex flex-col md:flex-row lg:flex-row justify-start items-start">
         <div className="flex flex-col md:flex-1 justify-between items-start">
-          <Link href="/" className="inline-block">
-            <Logo />
-          </Link>
+          <Logo />
           <Heading
             variant="h2"
             className="text-left mt-5 md:mt-5 md:text-3xl lg:text-[55px] md:leading-[100%] "
@@ -61,7 +59,7 @@ export default function Footer() {
             </Heading>
             <ul className="space-y-[15px]">
               {quickLinks.map((link) => (
-                <li key={link.href}>
+                <li key={link.label}>
                   <Link
                     href={link.href}
                     className="text-sm lg:text-[15px] font-medium text-[#929292] hover:text-[#000] transition-colors"
@@ -82,7 +80,7 @@ export default function Footer() {
             </Heading>
             <ul className="space-y-[15px]">
               {legalLinks.map((link) => (
-                <li key={link.href}>
+                <li key={link.label}>
                   <Link
                     href={link.href}
                     className="text-sm lg:text-[15px] font-medium text-[#929292] hover:text-[#000] transition-colors"
@@ -103,7 +101,7 @@ export default function Footer() {
             </Heading>
             <ul className="space-y-[15px]">
               {socialLinks.map((link) => (
-                <li key={link.href}>
+                <li key={link.label}>
                   <Link
                     href={link.href}
                     className="text-sm lg:text-[15px] font-medium text-[#929292] hover:text-[#000] transition-colors"
