@@ -17,7 +17,10 @@ const nextConfig: NextConfig = {
   compiler: {
     removeConsole: process.env.NODE_ENV === "production",
   },
-
+  experimental: {
+    // This will add the correct 'as' attribute to preloaded resources
+    optimizePackageImports: ["@components"],
+  },
   async headers() {
     return [
       {

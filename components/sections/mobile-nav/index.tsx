@@ -40,9 +40,9 @@ export default function MobileNav() {
             {navbarLinks.map((item) => (
               <li key={item.id}>
                 <Link
-                  href={item.href}
+                  href="#"
                   className="text-foreground/70 transition-colors hover:text-foreground"
-                  onClick={(e) => handleClick(e, item.href)}
+                  onClick={(e) => handleClick(e, item.id)}
                 >
                   {item.label}
                 </Link>

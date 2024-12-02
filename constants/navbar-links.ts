@@ -1,27 +1,22 @@
 export const navbarLinks = [
   {
-    id: 1,
+    id: "what-we-offer",
     label: "What we offer",
-    href: "/what-we-offer",
   },
   {
-    id: 2,
+    id: "why-trust-us",
     label: "Why trust us",
-    href: "/why-trust-us",
   },
   {
-    id: 3,
+    id: "how-it-works",
     label: "How it works",
-    href: "/how-it-works",
   },
   {
-    id: 4,
+    id: "pricing",
     label: "Pricing",
-    href: "/pricing",
   },
   {
-    id: 5,
+    id: "our-customers",
     label: "Our customers",
-    href: "/our-customers",
   },
 ];
