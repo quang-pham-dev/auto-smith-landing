@@ -25,7 +25,7 @@ export function ScrollToTopButton() {
             right: "2rem",
             padding: "0.5rem",
             borderRadius: "9999px",
-            backgroundColor: "orange",
+            backgroundColor: "#FC5316",
             color: "white",
             boxShadow: "0 10px 15px -3px rgb(0 0 0 / 0.1)",
             cursor: "pointer",

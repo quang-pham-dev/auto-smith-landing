@@ -14,7 +14,7 @@ export default function SearchInput() {
           alt="Search"
           width={20}
           height={20}
-          className="absolute left-4 z-10"
+          className="absolute left-4 z-10 w-auto"
         />
         <Input
           type="text"

@@ -19,8 +19,8 @@ export default function NavBar() {
           <li key={item.id}>
             <Link
               className="text-sm font-medium cursor-pointer"
-              href={item.href}
-              onClick={(e) => handleClick(e, item.href)}
+              href="#"
+              onClick={(e) => handleClick(e, item.id)}
             >
               {item.label}
             </Link>
