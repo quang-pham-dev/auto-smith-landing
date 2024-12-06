@@ -1,8 +1,10 @@
 import dynamic from "next/dynamic";
+import { Suspense } from "react";
 
 import Header from "@/components/common/header/header";
 import CarSearchWizard from "@/components/sections/car-search-wizards";
 import { ScrollToTopButton } from "@/components/ui/scroll-to-top";
+import { Loading } from "@/components/ui/loading";
 
 const WorkWithTheBest = dynamic(
   () => import("@/components/sections/work-with-the-best"),
@@ -20,7 +22,7 @@ const Footer = dynamic(() => import("@/components/common/footer"));
 
 export default function Home() {
   return (
-    <>
+    <Suspense fallback={<Loading />}>
       <Header />
       <CarSearchWizard />
       <WorkWithTheBest />
@@ -31,6 +33,6 @@ export default function Home() {
       <FAQ />
       <ScrollToTopButton />
       <Footer />
-    </>
+    </Suspense>
   );
 }

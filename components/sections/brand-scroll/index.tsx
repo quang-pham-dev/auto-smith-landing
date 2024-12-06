@@ -87,7 +87,6 @@ export function BrandScroll() {
                 alt={`Brand ${brand.id}`}
                 fill
                 className="object-contain"
-                priority
                 sizes="(max-width: 768px) 100vw, 160px"
               />
             </div>
@@ -104,7 +103,6 @@ export function BrandScroll() {
                 alt={`Brand ${brand.id}`}
                 fill
                 className="object-contain"
-                priority
                 sizes="(max-width: 768px) 100vw, 160px"
               />
             </div>

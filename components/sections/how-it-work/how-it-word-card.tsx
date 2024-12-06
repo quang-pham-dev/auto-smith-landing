@@ -20,7 +20,7 @@ export default function HowItWorkCard({ icon, title }: HowItWorkCardProps) {
       <CardContent className="p-0">
         <Heading
           variant="h3"
-          className="text-start leading-[100%] tracking-[-0.56px] line-clamp-2 overflow-hidden"
+          className="text-start leading-[120%] tracking-[-0.56px] line-clamp-3 overflow-hidden"
         >
           {title}
         </Heading>
